@@ -19,5 +19,17 @@ while True:
 
     if usuario == pc:
         print('Empate!')
-    
-    
+    elif (
+        (usuario == 'pedra' and pc == 'tesoura')
+        or (usuario == 'papel' and pc == 'pedra')
+        or (usuario == 'tesoura' and pc == 'papel')
+    ):
+        print('Você ganhou esta rodada')
+        v_usuario += 1
+    else:
+        print('Computador ganhou esta rodada')
+        v_pc += 1
+
+    print(f'Placar: Você {v_usuario} x Computador: {v_pc}\n')
+
+print(f'Fim de jogo! Placar final: Você {v_usuario} x Computador: {v_pc}')
