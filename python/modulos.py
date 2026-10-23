@@ -8,4 +8,4 @@ import math as m
 print(m.sqrt(25))
 
 import meu_modulo
-print(meu_modulo.saudacao("Kaua"))
+print(meu_modulo.saudacao(input("Digite seu nome: ")))
