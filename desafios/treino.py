@@ -1,3 +1,4 @@
+# Nota escolar 
 n1 = int(input('informe sua nota: '))
 
 if n1 == 10:
